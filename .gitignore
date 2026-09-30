@@ -1,0 +1,43 @@
+# Secrets / local config
+config.env
+.env
+.env.*
+!config.env.example
+!*.env.example
+*.pem
+*.key
+
+# Runtime data
+data/
+backups/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / frontend build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# User/import/export files
+*.xlsx
+*.xls
+*.csv
+*.zip
+*.bak
+*.tmp

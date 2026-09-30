@@ -1,0 +1,20 @@
+{
+  "name": "sj-one-360-frontend",
+  "private": true,
+  "version": "24.11.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build && node scripts/assemble-copilot-css.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.3.0"
+  }
+}
